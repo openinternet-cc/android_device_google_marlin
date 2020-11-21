@@ -1,5 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <permissions>
+
+    <privapp-permissions package="be.mygod.vpnhotspot">
+        <permission name="android.permission.OVERRIDE_WIFI_CONFIG"/>
+        <permission name="android.permission.LOCAL_MAC_ADDRESS"/>
+        <permission name="android.permission.READ_WIFI_CREDENTIAL"/>
+        <permission name="android.permission.TETHER_PRIVILEGED"/>
+        <permission name="android.permission.WRITE_SECURE_SETTINGS"/>
+    </privapp-permissions>
+
     <privapp-permissions package="com.htc.omadm.trigger">
         <permission name="android.permission.MODIFY_PHONE_STATE"/>
     </privapp-permissions>
